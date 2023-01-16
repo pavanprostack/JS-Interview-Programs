@@ -2,7 +2,7 @@
 
 
 // increment value
-let a = 18           
+let a = 18
 a++
 console.log(a)
 
@@ -27,25 +27,34 @@ console.log(length("kalyan"))
 
 // 2. change first letter in string to Capital Letter.
 var capital = (str) => {
-   return str.charAt(0).toUpperCase()+str.slice(1)
+    return str.charAt(0).toUpperCase() + str.slice(1)
 }
 console.log(capital("pavankalyan"))
 
 
 
 
-var pavan = (name) => {
-    var length = 0;
-    while(name[length]!==undefined)
-    length++;
-    return length;
-}
-console.log(pavan("friends"))
+// var pavan=(name)=>{
+//     var length=0;
+//     while(name[length]!== undefined)
+//         length++
+//         return length
+//     }
+
+// console.log(pavan("pavankalyan"))
 
 
 
-var letter=(string)=>{
-    return string.charAt(0).toUpperCase()+string.slice(1)
-}
-console.log(letter("prostack"))
+// var letter=(string)=>{
+//     return string.charAt(0).toUpperCase()+string.slice(1)
+// }
+// console.log(letter("prostack"))
 
+
+// const b = (string) => {
+//     let length = 0
+//     while (string[length] !== undefined)
+//         length++
+//     return length
+// }
+// console.log(b("pk"))
